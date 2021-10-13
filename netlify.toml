@@ -1,2 +1,13 @@
+# 제품 모드
 [build]
-  functions = "functions"
+  command = "npm run build" #빌드 cmd 명령
+  functions = "functions" #넷리파이 함수 디렉토리 지정
+  publish = "dist" #프로젝트 빌드 결과의 디렉토리
+#개발 모드
+[dev]
+  framework = "#custom"
+  command = "npm run dev"
+  targetPort = 8080 #연결 프로젝트의 개발서버 포트
+  port = 8888 #출력할 netlify 서버의 포트
+  publish = "dist"
+  autoLaunch = false #서버 준비시 자동으로 브라우저 오픈 여부
