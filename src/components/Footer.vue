@@ -4,7 +4,7 @@
     <a
       href="https://github.com/gbangwool"
       target="_blank">
-      (c){{ new Date().getFullYear() }} Gbangwool
+      (c){{ new Date().getFullYear() }} gbangwool
     </a>
   </footer>
 </template>
